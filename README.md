@@ -24,7 +24,7 @@ Project Agile Sprint 2
 Container volumes are not working correctly.
 
 To get the project to run you must currently run on localhost through Xampp by
-dropping the project folder (Called:ch06_tech_support Located:php-apache folder) into the htdocs folder of the xampp directory and then access the localhost
+dropping the project folder (Called:ch06_tech_support Located:php-apache folder) into the htdocs folder of the xampp directory (usually placed in your main drive) and then access the localhost with localhost/ch06_tech_support
 If you have netbeans and xampp you should be able to run the intial index file from it.
 
 ##
