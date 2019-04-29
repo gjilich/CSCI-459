@@ -13,8 +13,6 @@ Using CRUD the website will be able to Create,Read,Update, and Delete transactio
 
     1. Customer View Page
     2. Customer Update Page
-    3. Landing Page
-    4. Customer Add Page
 
 ##
 Project Agile Sprint 2
