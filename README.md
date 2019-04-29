@@ -1,7 +1,3 @@
-# CSCI-459
-Project directory for Crosby's class
-## CSCI-459
-
 Project Agile Sprint 1
 2/28/2019
 
@@ -17,7 +13,18 @@ Using CRUD the website will be able to Create,Read,Update, and Delete transactio
 
     1. Customer View Page
     2. Customer Update Page
-    3. 
-    4. 
+    3. Landing Page
+    4. Customer Add Page
+
+##
+Project Agile Sprint 2
+4/14/2019
+##
+
+Container volumes are not working correctly.
+
+To get the project to run you must currently run on localhost through Xampp by
+dropping the project folder (Called:ch06_tech_support Located:php-apache folder) into the htdocs folder of the xampp directory and then access the localhost
+If you have netbeans and xampp you should be able to run the intial index file from it.
 
 ##
