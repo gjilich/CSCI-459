@@ -44,4 +44,6 @@ dropping the project folder (Called:ch06_tech_support Located:php-apache folder)
 
 If you have netbeans and xampp you can run the intial index file from it.
 
+The attached SQL file will auto load some random data into MySQL through myPhpAdmin. Go through the import screen to load it up.
+
 ##
