@@ -1,10 +1,10 @@
-##Application Documentation
+## Application Documentation
 
-##Project Name
+## Project Name
  
  SportsPro Technical Support
 
-##Team Members 
+## Team Members 
 
 GW Jilich Kai Loring Chase Robinson Anthony McKinney
 
