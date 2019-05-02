@@ -1,26 +1,33 @@
-version: '3.7'
+version: '3'
 
 services:
 
-    apache-php:
-      image: 'php:apache'
-      restart: always
-      ports: 
-        - 8080:80
-      volumes:
-        - type: bind
-          source: ./apache-php/ch06_tech_support
-          target: /var/www/html
+  db:
+    build:
+      context: ./mysql
+    container_name: mysql-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: pa55word
+      MYSQL_DATABASE: tech_support
+      MYSQL_USER: ts_user
+      MYSQL_PASSWORD: pa55word
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d/
+      - mysql:/var/lib/mysql
 
-    db:
-      image: 'mysql:5.7'
-      restart: always
-      volumes:
-        - type: bind
-          source: ./database
-          target: /var/lib/mysql
-      environment:
-        MYSQL_DATABASE: characters
-        MYSQL_USER: 'csci459'
-        MYSQL_PASSWORD: 'csci459'
-        MYSQL_RANDOM_ROOT_PASSWORD: '1'
+  web:
+    build:
+      context: ./php
+    container_name: php-webserver
+    links:
+      - db:db
+    volumes:
+      - ./php/:/var/www/html/
+    ports:
+      - "8080:80"
+
+volumes:
+  mysql:
