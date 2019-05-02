@@ -104,13 +104,14 @@ Loads all of the data for the website into the database and displays it on the w
 
  
  1. Manage Products
- 	- allows you to Add and Delete products
+    - allows you to Add and Delete products
  2. Manage Technicians
- 	- allows you to Create and Add Technicians
+    - allows you to Create and Add Technicians
  3. Manage Customers
- 	- allows you to Search Customers records
+    -allows you to Search Customers records
  4.  Register Product
-  - allows you to Create and Update Product Records 
+    - allows you to Create and Update Product Records
+   
   
  
  
