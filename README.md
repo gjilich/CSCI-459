@@ -111,6 +111,7 @@ Loads all of the data for the website into the database and displays it on the w
  	- allows you to Search Customers records
  4.  Register Product
  	- allows you to Create and Update Product Records 
+  
  
  
  
